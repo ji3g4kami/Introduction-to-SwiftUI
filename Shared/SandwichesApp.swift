@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct SandwichesApp: App {
-    @StateObject private var store = SandwichStore()
+    @StateObject private var store = testStore
     
     var body: some Scene {
         WindowGroup {
